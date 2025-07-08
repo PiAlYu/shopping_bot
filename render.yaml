@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: telegram-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    envVars:
+      - key: BOT_TOKEN
+        value: "вставь_сюда_свой_Telegram_Bot_Token"
